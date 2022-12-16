@@ -1,5 +1,3 @@
-# Simple Tailwind template
-
 <p align="center">
   <a href="https://tailwindcss.com" target="_blank">
     <picture>
@@ -21,15 +19,15 @@ installé.
 
 ## Utilisation
 
-### Installer les dependences
+### Initialisation
 
-Installe automatiquement les dépendences nécessaires (Tailwind, Vite).
+Installe automatiquement les dépendances nécessaires (Tailwind, Vite).
 
 ```
 npm install
 ```
 
-### Development
+### Développement
 
 Lance un serveur de dév local qui recharge automatiquement les scripts et le front-end.
 
