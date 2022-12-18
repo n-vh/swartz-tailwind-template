@@ -1,4 +1,9 @@
+# IDE
 /.vscode/
-/node_modules/
+
+# modules
+/node_modules
+
+# production build
 /dist/
-*-lock.*
+

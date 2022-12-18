@@ -1,3 +1,9 @@
+# Swartz-7 TailwindCSS + Vite Template
+
+This is a template to use for a `html` + `vanillajs` + `tailwindcss` project. Enjoy. Make it better.
+
+<br/>
+
 <p align="center">
   <a href="https://tailwindcss.com" target="_blank">
     <picture>
@@ -8,37 +14,51 @@
   </a>
 </p>
 
-## Documentation
+<br />
 
-Toute la documentation est disponible sur [tailwindcss.com](https://tailwindcss.com/).
+## Documentation 📄
 
-## ⚠️ Requis
+Les principales libraries utilisées sont:
 
-Il est obligatoire d'avoir [Node](https://nodejs.org/en/download/)
-installé.
+- [tailwindcss](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
-## Utilisation
+## Requis 🚨
 
-### Initialisation
+Il est obligatoire d'avoir [Node.js](https://nodejs.org/en/download/) version `>= 14.18.0` installé.
 
-Installe automatiquement les dépendances nécessaires (Tailwind, Vite).
+_Optionnel: `nvm` (Node Version Manager) permet d'installer plusieurs versions de Node.js sur le même système._
 
-```
-npm install
-```
+## Utilisation 👨‍💻
 
-### Développement
+### Initialisation 👶
 
-Lance un serveur de dév local qui recharge automatiquement les scripts et le front-end.
+1. `git clone <template-url.git> <my-folder>`.
+2. `cd <my-folder>`.
+3. Installer les dépendances nécessaires avec `npm install`.
 
-```
-npm run dev
-```
+### Développement 🏋️
 
-### Production
+- `npm run dev` lance un serveur local de développement qui recharge automatiquement le front-end et les scripts.
 
-Compile le code dans le dossier `dist`.
+_Note: Cette [extension VSCode](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) permet de se faciliter la vie avec les classes de `tailwindcss`._
 
-```
-npm run build
-```
+### Production 👔
+
+- `npm run build` compile le projet dans le dossier `dist`.
+- `npm run serve` lance un serveur local du build de production.
+
+## Contribute
+
+If you'd like to contribute to the improvement of this template, feel free to create a PR (Pull Request) from a new branch.
+
+## TODO
+
+- [ ] Prettier: Install, configure and add the [Tailwind plugin](https://tailwindcss.com/docs/editor-setup#automatic-class-sorting-with-prettier).
+- [ ] Add MIT License.
+- [ ] Configure template to use `typescript`.
+- [ ] Create executable to allow me to choose between using `yarn` or `npm`
+
+---
+
+&copy; 2022
