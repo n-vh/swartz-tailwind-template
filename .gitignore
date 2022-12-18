@@ -7,6 +7,3 @@
 # production build
 /dist/
 
-
-# [FIXME]: We actually need to push the -lock. files for our yarn || pkg.json will handle this on another PR
-*-lock.*
