@@ -18,56 +18,44 @@ This is a template to use for a `html` + `vanillajs` + `tailwindcss` project. En
 
 ## Documentation 📄
 
-Les libraries principales utilisé sont:
+Les principales libraries utilisées sont:
 
-1. [tailwindcss](https://tailwindcss.com/)
-2. [vite](https://vitejs.dev/)
+- [tailwindcss](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
-## ⚠️ Requis 🚨
+## Requis 🚨
 
-Il est obligatoire d'avoir [Node](https://nodejs.org/en/download/)
-installé.
+Il est obligatoire d'avoir [Node.js](https://nodejs.org/en/download/) version `>= 14.18.0` installé.
 
-Au moins `node >= 14.18.0`.
+_Optionnel: `nvm` (Node Version Manager) permet d'installer plusieurs versions de Node.js sur le même système._
 
-Si tu veux installer plusieurs versions de node dans ton systeme. Regarde `nvm` (node version manager) ou qql similaire
+## Utilisation 👨‍💻
 
-## Utilisation 🥹
+### Initialisation 👶
 
-1. `git clone <address de ce template> <my-renamed-folder>` le project
-2. `cd <my-renamed-folder>`
-3. Installe les dépendances nécessaires avec `npm install`
+1. `git clone <template-url.git> <my-folder>`.
+2. `cd <my-folder>`.
+3. Installer les dépendances nécessaires avec `npm install`.
 
-_Note: en lieu d'tuliser `npm` tu peux utiliser `yarn` comment 'dependence manager'. [Montre moi comment utiliser Yarn](#Yarn)._
+### Développement 🏋️
 
-## Développement 🏋️
+- `npm run dev` lance un serveur local de développement qui recharge automatiquement le front-end et les scripts.
 
-- `npm run dev` lance un serveur de dév local qui recharge automatiquement les scripts et le front-end avec
-- Pour te faciliter la vie avec les classes du `tailwindcss` installe cette [extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) sur vscode.
+_Note: Cette [extension VSCode](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) permet de se faciliter la vie avec les classes de `tailwindcss`._
 
-## Production 👔
+### Production 👔
 
-- `npm run build` cree un build "production" du projet dans le dossier `dist`
-
-- `npm run serve` fais un preview du **build production**
-
-## Yarn 🧶
-
-Si tu utlise [yarn](https://yarnpkg.com/) comme package manager.
-
-1. Installe `yarn` dans ton OS.
-2. Retire le `package-lock.json` du projet
-3. En lieu de faire `npm install` fais `yarn install` pour installer les dependances avec `yarn`
-4. Utilise `yarn` pour toute commande `yarn run dev || yarn run build || yarn add pkg || ...etc`
+- `npm run build` compile le projet dans le dossier `dist`.
+- `npm run serve` lance un serveur local du build de production.
 
 ## Contribute
 
-... Add some info
+If you'd like to contribute to the improvement of this template, feel free to create a PR (Pull Request) from a new branch.
 
 ## TODO
 
-- [ ] Installe + Configurer prettier + tailwind plugin pour faciliter l'ordre de tailwindcss.classes. Read about it [here](https://tailwindcss.com/docs/editor-setup#automatic-class-sorting-with-prettier).
-- [ ] ADD MIT License.
+- [ ] Prettier: Install, configure and add the [Tailwind plugin](https://tailwindcss.com/docs/editor-setup#automatic-class-sorting-with-prettier).
+- [ ] Add MIT License.
 - [ ] Configure template to use `typescript`.
 - [ ] Create executable to allow me to choose between using `yarn` or `npm`
 
