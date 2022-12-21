@@ -47,6 +47,7 @@ _Note: Cette [extension VSCode](https://marketplace.visualstudio.com/items?itemN
 
 - `npm run build` compile le projet dans le dossier `dist`.
 - `npm run serve` lance un serveur local du build de production.
+- `npm run pages` déploie le dossier `dist` sur GitHub Pages.
 
 ## Contribute
 
