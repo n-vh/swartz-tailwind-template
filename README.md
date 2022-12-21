@@ -33,9 +33,10 @@ _Optionnel: `nvm` (Node Version Manager) permet d'installer plusieurs versions d
 
 ### Initialisation 👶
 
-1. `git clone <template-url.git> <my-folder>`.
-2. `cd <my-folder>`.
-3. Installer les dépendances nécessaires avec `npm install`.
+1. Créer un nouveau repo avec le bouton vert "**Use this template**" 👆.
+2. `git clone <votre-repo-url.git> <my-folder>`.
+3. `cd <my-folder>`.
+4. Installer les dépendances nécessaires avec `npm install`.
 
 ### Développement 🏋️
 
